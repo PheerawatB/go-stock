@@ -9,7 +9,7 @@ type Order struct {
 	CustomerName string   `json:"customerName"`
 	Items        []string `json:"items"`
 	Total        float64  `json:"total"`
-	Status       string   `json:"status"` // e.g., "pending", "processed"
+	Status       string   `json:"status"`
 }
 
 type OrderRepository struct {
